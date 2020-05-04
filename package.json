@@ -1,0 +1,29 @@
+{
+  "name": "node-typescript",
+  "version": "1.0.0",
+  "description": "practice using typescript with node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/app.js", 
+    "dev": "nodemon src/app.ts", 
+    "build": "tsc -p .",
+    "dev2": "node src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckd1618/nodeTypescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ckd1618/nodeTypescript/issues"
+  },
+  "homepage": "https://github.com/ckd1618/nodeTypescript#readme",
+  "devDependencies": {
+    "@types/node": "^13.13.4",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.8.3"
+  }
+}
